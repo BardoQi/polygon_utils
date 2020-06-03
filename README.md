@@ -6,6 +6,10 @@ Algorithm is used for computing Boolean operations on polygons:
 - difference
 - intersection
 - xor
+## install
+```
+$ composer require kudm761/martinez-rueda-php:dev
+```
 ## Usage
 Input parameter is a multipolygon - an array of polygons. And each polygon is an array of points x,y.
 ```
