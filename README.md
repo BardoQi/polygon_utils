@@ -8,7 +8,7 @@ Algorithm is used for computing Boolean operations on polygons:
 - xor
 ## install
 ```
-$ composer require bardoqi/polygon_utils^0.1.1
+$ composer require kudm761/martinez-rueda-php
 ```
 ## Usage
 Input parameter is a multipolygon - an array of polygons. And each polygon is an array of points x,y.
