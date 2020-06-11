@@ -1,5 +1,5 @@
 {
-  "name": "kudm761/martinez-rueda-php",
+  "name": "bardoqi/polygon-utils",
   "description": "Martinez-Rueda algorithm for polygon boolean operations",
   "keywords": ["polygon clipping", "polygon boolean operations", "polygon union", "polygon intersection",
     "polygon difference", "polygon xor", "geography", "martinez polygon algorithm", "martinez php"],
