@@ -93,6 +93,8 @@ class Algorithm
      */
     protected function compute(Polygon $subject, Polygon $clipping, string $operation) : Polygon
     {
+        //For return a empty Polygon when there is no intersection inter the  $subject and $clipping !!!!
+        $result = new Polygon([]);
         // Test for 1 trivial result case
         if ($subject->ncontours() * $clipping->ncontours() == 0) {
             if ($operation == self::OPERATION_DIFFERENCE) {
